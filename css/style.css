@@ -1,0 +1,56 @@
+header
+{
+    display: inline-flex;
+    align-content: center;
+}
+
+.canvas
+{
+    width: 100%;
+    height: 100%;
+}
+
+.sizes > button > img
+{
+    width: 100px;
+    height: 50px;
+    padding: 10px 20px;
+}
+
+.space
+{
+    width: 3px;
+    height: 70px;
+    margin: 0 20px;
+    align-self: center;
+    background-color: black;
+}
+
+.rgb > input
+{
+    width: 80px;
+    height: 80px;
+    border: 0;
+}
+
+.erase
+{
+    align-self: center;
+}
+
+.erase > button
+{
+    width: 150px;
+    height: 80px;
+}
+
+.erase > button > a
+{
+    font-size: large;
+}
+
+hr
+{
+    border: 3px solid gray;
+    border-radius: 35%;
+}
