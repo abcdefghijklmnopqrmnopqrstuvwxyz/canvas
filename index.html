@@ -8,14 +8,14 @@
     </head>
     <body>
         <header>
-            <div class="sizes" id="size">
-                <button href="#"><img src="img/large.jpg"></button>
-                <button href="#"><img src="img/medium.jpg"></button>
-                <button href="#"><img src="img/small.jpg"></nutton>
+            <div class="sizes">
+                <button id="10" onclick="setLineWidth(id)"><img src="img/large.jpg"></button>
+                <button id="5" onclick="setLineWidth(id)"><img src="img/medium.jpg"></button>
+                <button id="3" onclick="setLineWidth(id)"><img src="img/small.jpg"></nutton>
             </div>
             <div class="space"></div>
-            <div class="rgb" id="color">
-                <input type="color">
+            <div class="rgb">
+                <input type="color" id="color">
             </div>
             <div class="space"></div>
             <div class="erase">
@@ -25,14 +25,16 @@
             </div>
             <div class="space"></div>
             <div class="save">
-                <!---->
+                <select id="load">
+                    <option selected disabled>Select painting</option>
+                </select>
             </div>
         </header>
 
         <hr>
 
-        <main id="plate">
-            <canvas class="canvas" id="canvas" style="border: 1px solid red">
+        <main class="plate">
+            <canvas class="canvas" id="canvas">
             </canvas>
         </main>
 
