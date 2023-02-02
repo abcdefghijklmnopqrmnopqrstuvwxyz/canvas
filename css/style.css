@@ -63,6 +63,13 @@ header
     font-size: large;
 }
 
+.curve > button
+{
+    width: 150px;
+    height: 80px;
+    font-size: large;
+}
+
 hr
 {
     border: 3px solid gray;
